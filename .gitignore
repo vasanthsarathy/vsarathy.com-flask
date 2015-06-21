@@ -1,1 +1,6 @@
 gh-pages
+venv
+.idea
+*.pyc
+*~
+.DS_Store
