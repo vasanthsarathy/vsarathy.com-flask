@@ -1,14 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-{% block head %}
-  <meta charset="utf-8">
-  <title>Home</title>
-  <meta name="description" content="Flatfreeze flattens and freezes in one go!">
-{% endblock %}
-</head>
-<body>
-  {% block content %}
-  {% endblock %}
-</body>
+	<head>
+		{% block head %}
+			<!-- Basic Page Needs
+			–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+			<meta charset="utf-8">
+			<title>Vasanth Sarathy</title>
+			<meta name="description" content="Vasanth Sarathy's Personal Website">
+			<meta name="author" content="Vasanth Sarathy">
+
+			<!-- Mobile Specific Metas
+			–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+
+			<!-- FONT
+			–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+			<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+
+			<!-- CSS
+			–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+			<link rel="stylesheet" href="/static/css/normalize.css">
+			<link rel="stylesheet" href="/static/css/skeleton.css">
+
+			<!-- Favicon
+			–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+			<link rel="shortcut icon" href="http://faviconist.com/icons/51deba08fb76ec56dd1fa7087f04b6dd/favicon.ico" />
+		{% endblock %}
+	</head>
+	<body>
+		<!-- Header -->
+		<header>
+			<div class="row">
+				<div class="five columns offset-by-two" style="margin-top: 5%">
+					<h1> Vasanth Sarathy </h1>
+				</div>
+				<div class="four columns"><img src="/static/images/vsarathy_logo.png" style="width:150px">
+				</div>  
+			</div>
+
+			<div class="row" >	
+				<div class="twelve columns offset-by-two" id="menu">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/">Bio</a></li>
+						<li><a href="/research.html">Research Interests</a></li>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/">Projects</a></li>
+						<li><a href="/">Cartoons</a></li>
+					</ul>
+				</div>
+
+				</div>
+			</div>
+			<hr style= "margin-top: 0px; margin-bottom: 20px">
+		</header>
+
+		{% block content %}
+		{% endblock %}
+	</body>
 </html>
