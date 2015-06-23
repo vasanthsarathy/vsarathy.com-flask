@@ -31,17 +31,21 @@
 	<body>
 		<!-- Header -->
 		<header>
-			<div class="row">
-				<div class="six columns offset-by-two" style="padding: 5%">
+			<div class="row" style="text-align: center">
+<!-- 				<h1> Vasanth Sarathy </h1>
+				<img src="/static/images/vsarathy_logo.png" style="width:15%">
+ -->
+
+				<div class="eight columns" style="padding: 5%">
 					<h1> Vasanth Sarathy </h1>
 				</div>
-				<div class="four columns" style="padding-top: 1%">
-					<img src="/static/images/vsarathy_logo.png" style="width:50%">
+				<div class="three columns" style="padding-top: 2%">
+					<img src="/static/images/vsarathy_logo.png" style="width:70%">
 				</div>  
 			</div>
 
-			<div class="row" >	
-				<div class="twelve columns offset-by-two" id="menu">
+			<div class="row" id ="menu" style="text-align: center" >	
+<!-- 				<div class="twelve columns offset-by-two" id="menu"> -->
 					<ul>
 						<li><a href="/">Home</a></li>
 						<li><a href="/">Bio</a></li>
@@ -60,4 +64,12 @@
 		{% block content %}
 		{% endblock %}
 	</body>
+	<footer>
+		<div class="row" style="text-align: center">
+			<hr>
+    		<p>
+    			Website by <a href="http://vsarathy.com">Vasanth Sarathy</a>. Copyright © 2015. Click here for <a href="https://github.com/vasanthsarathy/vsarathy.com-flask">source</a>.
+    		</p>
+    	</div>
+	</footer>
 </html>
