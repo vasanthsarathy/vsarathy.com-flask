@@ -16,8 +16,12 @@ HOSTING_DOMAIN = 'http://vsarathy.com/'
 def index():
     return render_template('index.html')
 
+@app.route('/bio.html')
+def bio():
+    return render_template('bio.html')
+
 @app.route('/research.html')
-def contact():
+def research():
     return render_template('research.html')
 
 @app.errorhandler(404)

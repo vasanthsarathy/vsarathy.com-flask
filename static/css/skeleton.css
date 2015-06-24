@@ -434,3 +434,8 @@ author: Vasanth Sarathy;
   display: inline; 
   padding: 10px; 
 }
+
+/* Social icons */
+#social li {
+  list-style-type: none;
+}
